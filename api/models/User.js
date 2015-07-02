@@ -1,11 +1,19 @@
 module.exports = {
   attributes: {
-    name: {
+    firstName: {
+      type: 'string'
+    },
+
+    lastName: {
       type: 'string'
     },
 
     email: {
-      type: 'email'
+      type: 'string'
+    },
+
+    zipcode: {
+      type: 'string'
     },
 
     expertise: {
